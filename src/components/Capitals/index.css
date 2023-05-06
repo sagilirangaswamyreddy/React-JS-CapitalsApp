@@ -1,0 +1,68 @@
+@media (min-width: 768px) {
+  .bg-container {
+    background-color: #93c5fd;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-container {
+    background-color: #f8fafc;
+    padding: 30px 50px;
+    border-radius: 8px;
+  }
+
+  .heading {
+    color: #323f4b;
+  }
+
+  .select-styles {
+    padding: 5px;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  .country-name-styles {
+    color: #1e293b;
+  }
+}
+
+@media (max-width: 767px) {
+  .bg-container {
+    background-color: #93c5fd;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .card-container {
+    background-color: #f8fafc;
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+
+  .heading {
+    color: #323f4b;
+    font-size: 22px;
+  }
+
+  .select-styles {
+    padding: 5px;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  label {
+    font-size: 15px;
+  }
+
+  .country-name-styles {
+    color: #1e293b;
+    font-size: 22px;
+  }
+}
